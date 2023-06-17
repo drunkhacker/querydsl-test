@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/query_dsl_test?serverTimezone=UTC&useSSL=false
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
